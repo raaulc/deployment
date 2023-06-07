@@ -1,0 +1,5 @@
+/usr/bin/docker buildx build --build-arg build_ref=my-own-branch-build-arg NODE_AUTH_TOKEN=*** --file .//Dockerfile --iidfile /tmp/docker-build-push-6y2dYZ/iidfile --provenance false --tag ghcr.io/owa-global/oza:my-own-branch --metadata-file /tmp/docker-build-push-6y2dYZ/metadata-file --push ./
+119
+ERROR: invalid tag "ghcr.io/owa/oza:my-own-branch”: invalid reference format
+120
+Error: buildx failed with: ERROR: invalid tag "ghcr.io/oza/oka:my-own-branch”: invalid reference format
